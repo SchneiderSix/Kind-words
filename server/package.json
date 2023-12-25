@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch ./src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.7.2",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.15.0",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "elysia": "^0.7.30",
+    "elysia-helmet": "^1.0.1",
+    "elysia-rate-limit": "^2.0.1",
+    "languagedetect": "^2.0.0",
+    "mongoose": "^8.0.3",
+    "natural": "^6.10.4"
+  }
+}
